@@ -1,0 +1,72 @@
+body {
+    background-color: bisque;
+    margin: 0 15% 0 15%;
+    width: 64em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menu {
+    margin: 0;
+    padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+    list-style: none; /* toto zrusi tie bodky v zoznamoch */
+    height: 4em;
+    background: #DB003A; 
+    text-align: center;
+    padding-right: 0.1em;
+}
+  
+.menu li,
+.menu a {
+    display: inline-block; /* aby boli vedla seba */
+    text-decoration: none;
+    
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    line-height: 2.6em;
+    padding-right: 1em;
+
+}
+
+a:hover {
+    color: yellowgreen;
+}
+  
+.menu a {
+    margin: 0 0.3125em;
+    text-align: center;
+    padding: 0.625px;
+}
+
+.logo {
+    padding-left: 38%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.IMGbackground {
+    padding-left: 1.6em;
+    padding-bottom: 1.6em;
+}
+
+.pre-footer h1 {
+    font-size: 1.8em;
+    color: #DB003A;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.pre-footer p {
+    text-align: center;
+    color: #363636;
+    line-height: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    margin: 1.8em 5em 1.8em 5em;
+}
+
+.redfont {
+    color: #8A0035;
+}
