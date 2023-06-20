@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(216, 218, 218);
+    margin:0;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.headbox {
+    background-color: azure;
+    width: 1000px;
+    height: 800px;
+
+    position: relative;
+    margin: 40px auto;
+}
+
+.menubox {
+    background-color: rgb(226, 230, 230);
+    width: 600px;
+    height: 730px;
+
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+
+.headimg {
+    width: 600px;
+    height: 250px;
+}
+
+.RStool {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+header, p {
+    margin: 30px 20px auto 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightboxup {
+    background-color: rgb(226, 230, 230);
+    width: 300px;
+    height: 400px;
+
+    position: relative;
+    top: -805px;
+    left: 830px;
+}
+
+.rightimg {
+    width: 300px;
+    height: 140px;
+}
+
+.Rtools {
+    margin: 10px auto 10px 20px;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.rightp {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonR {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto auto 20px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+.rightboxdown {
+    background-color: rgb(226, 230, 230);
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+    top: -775px;
+    left: 830px;
+}
+
+.RtoolsD {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 30px auto 20px 20px;
+}
+
+.rightD {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 20px auto 20px;
+    text-align: justify;
+}
+
+.odkaz {
+    color: red;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline-block;
+    margin: 35px auto auto 20px;
+}
