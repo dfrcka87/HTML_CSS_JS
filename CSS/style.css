@@ -1,0 +1,70 @@
+.menu {
+    margin: 0;
+    padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+    list-style: none; /* toto zrusi tie bodky v zoznamoch */
+    background: white;
+    text-align: center;
+}
+  
+.menu li,
+.menu a {
+    display: inline-block; /* aby boli vedla seba */
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.menu a {
+    margin: 0 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover {
+    color: grey;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: bold;
+    margin-bottom: 55px;
+}
+
+.gombik a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background: red;
+    padding: 20px 15px 20px 15px;
+    margin: 40px 37%;
+    border-radius: 6px;
+}
+
+.textura {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 30%;
+}
+
