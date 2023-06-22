@@ -1,0 +1,63 @@
+body {
+    color: #333;
+    font: normal 18px/30px 'Lato' sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 46px;
+}
+.container {
+    width: 760px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+.section-1 {
+    color: #fdeaea;
+    background: #f25f5c;
+}
+
+.section-2 {
+    background: #f2ecbd;
+}
+
+.section-3 {
+    background: #8abeb2;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+textarea,
+button {
+    background-color: #fff;
+    border: none;
+    width: 300px;
+    padding: 15px 20px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .12);
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+button:hover {
+    outline: 2px solid #8abeb2;
+}
+
+textarea {
+    width: 675px;
+}
+
+button {
+    color: #fdeaea;
+    background: #f25f5c;
+}
+
+label {
+    cursor: pointer;
+}
+
