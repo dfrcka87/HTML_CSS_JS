@@ -1,0 +1,143 @@
+body {
+    width: 960px;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.box {
+    width: 960px;
+    height: 580px;
+    display: block;
+    margin-top: 20px;
+    background: url('../IMG/landmarks-modern-city.jpg');
+    background-position: 40% 0;
+    position: relative;
+    
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: bisque;
+    display: inline;
+    background-color: #bb0101;
+
+    float: left;
+    padding: 28px 25px;
+    margin: 30px 10px 30px 30px; 
+}
+
+.namelogo {
+    color: bisque;
+    font-size: 20px;
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    margin-top: 67px;
+}
+
+ .box img {
+    float: right;
+    margin: 65px 50px;
+}
+
+.nadpis {
+    font-size: 50px;
+    color: bisque;
+    text-align: center;
+    display: block;
+    
+    float: left;
+    margin-top: 155px;
+    margin-left: 75px;
+       
+}
+
+.gombik {
+    color: bisque;
+    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid bisque;
+    text-align: center;
+    margin-left: 340px;
+    padding: 16px 50px;
+    text-decoration: none;
+
+    float: left;
+}
+
+a:hover,
+a:focus {
+    color:black;
+}
+
+.ikony {
+    text-align: center;
+    margin: 30px auto 5px auto;
+}
+
+.odstavec {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0F1306;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20%;
+}
+
+.pre-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #0F1306;
+    border-bottom: 1px solid #818181;
+    line-height: 2px;
+    margin: 50px 33% 30px 33%;
+    display: inline-block;
+    font-weight: 200;
+    
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 30px auto 80px 135px;
+    text-align: center;
+    clear: both;
+}
+
+.artboxleft {
+    margin-right: 35px;
+    margin-bottom: 60px;
+    width: 300px;
+    float: left;
+
+}
+
+.artboxright {
+    margin-left: 35px;
+    margin-bottom: 60px;
+    width: 300px;
+    float: left;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #0F1306;
+    line-height: 28px;  
+    margin-top: 30px;
+    margin-bottom: 50px;  
+}
+
+.artboxleft img,
+.artboxright img {
+    width: 40px;
+    height: 40px;
+}
