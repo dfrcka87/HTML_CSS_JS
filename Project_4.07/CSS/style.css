@@ -1,0 +1,153 @@
+body {
+    width: 960px;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.box {
+    width: 976px;
+    height: 549px;
+    display: block;
+    margin-top: 20px;
+    background: url('../IMG/pc_work.jpg');
+    background-position: 40% 0;
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    background-color:rgb(175, 175, 175);
+    opacity: 80%;
+}
+
+.menu img {
+    margin-left: 30px;
+    margin-top: 3px;
+    
+    float: left;
+}
+
+.menu p {
+    font-family: Brush Script MT, sans-serif;
+    font-size: 24px;
+    color: black;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 70px;
+    float:left;
+}
+.navbar li,
+.navbar a {
+    display: inline;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+    float: left;
+}
+
+.navbar a {
+    margin-right: 30px;
+    margin-top: 28px;
+}
+
+.start a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    
+    margin: 17px 50px 0 30px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+
+    float: right;
+}
+
+a:hover,
+a:focus {
+    color: #BB6401;
+}
+
+.nadpis {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #BB6401;
+    font-size: 38px;
+    font-weight: 600;
+    width: 650px;
+    text-align: center;
+    
+    float: left;
+    margin-top: 170px;
+    margin-left: 155px;
+}
+
+.nadpis span {
+    color: white;
+}
+
+.menu h4 {
+    color: #BB6401;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 155px;
+}
+
+.hlava {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    width: 580px;
+    margin-left: 175px;
+}
+
+.boxes-left,
+.boxes-right {
+    width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+    line-height: 24px;
+    text-align: center;
+    margin: 50px auto;
+    margin-left: 80px;
+}
+
+.boxes-left {
+    float: left;
+}
+
+.boxes-right {
+    float: left;
+}
+
+.post-footer a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color:bisque;
+    text-decoration: none;
+    background-color: #BB6401;
+    border-radius: 3px;
+    text-align: center;
+
+    display: inline-block;
+    padding: 14px 22px;
+    margin: 30px auto;
+    margin-left: 340px;
+}
+

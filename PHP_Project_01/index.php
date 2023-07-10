@@ -6,22 +6,43 @@
     <title>PHP_Project_01</title>
 </head>
 <body>
-    <?php
-        $hodnota = 10;
-        $druha = 4;
-        $vysledok = 0;
-
-        $vysledok = $hodnota * $druha;
-        echo $vysledok;
-        echo '<br>';
-               
-        if ( $hodnota < $druha) {
-            echo 'Dedí vec, isto';
-        }
-        else {
-            echo 'Pičovina isto';
-        }
-    ?>
+    $directors = [
+        [
+            'id' => 1,
+            'first_name' => 'Edgar',
+            'last_name' => 'Wright',
+            'country' => 'United Kingdom',
+            'birthdate' => '1974-04-18',
+        ],
+        [
+            'id' => 2,
+            'first_name' => 'Jim',
+            'last_name' => 'Jarmusch',
+            'country' => 'United States',
+            'birthdate' => '1953-01-22',
+        ],
+        [
+            'id' => 3,
+            'first_name' => 'Leos',
+            'last_name' => 'Carax',
+            'country' => 'France',
+            'birthdate' => '1960-11-22',
+        ],
+        [
+            'id' => 4,
+            'first_name' => 'Ingmar',
+            'last_name' => 'Bergman',
+            'country' => 'Sweden',
+            'birthdate' => '1918-07-14',
+        ],
+        [
+            'id' => 5,
+            'first_name' => 'Andrej',
+            'last_name' => 'Tarkovskij',
+            'country' => 'Russia',
+            'birthdate' => '2000-10-10',
+        ],
+    ];
 
 </body>
 </html>
